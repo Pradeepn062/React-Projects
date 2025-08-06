@@ -1,0 +1,70 @@
+.signup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.signup-page
+{
+    border: 1px solid black;
+    width: 500px;
+    height: 400px;
+    box-shadow: 5px 5px 10px burlywood;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.signup-page h2{
+    color: brown;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 50px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.email label{
+    padding-left: 20px;
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    margin-left: 60px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.new-account
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.new-account p{
+    margin-left: 70px;
+    margin-right : 30px;
+    margin-top: 30px;
+}
+
+.new-account a{
+    text-decoration: none;
+}
+
+.new-account a:hover{
+    text-decoration: underline;
+}
+
