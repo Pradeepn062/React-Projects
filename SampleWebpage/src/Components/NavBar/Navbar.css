@@ -1,0 +1,51 @@
+.navbar{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    color: white;
+    margin: 40px 120px;
+}
+
+.nav-logo{
+    font-size: 40px;
+    color: rgb(0, 255, 64);
+}
+
+.nav-menu{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-menu li{
+    margin: 30px;
+    font-size: 20px;
+}
+
+.nav-menu li:nth-child(-n+3):hover{
+    color: rgb(247, 80, 14);
+    border-bottom: 3px solid rgb(0, 255, 255);
+}
+
+.nav-contact li:hover{
+    border-bottom: none;
+    color: black;
+}
+
+.nav-contact{
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    padding: 4px 4px;
+    cursor: pointer;
+}
+
+.nav-contact:hover{
+    background-color: rgb(223, 184, 184);
+    color: white;
+    transition: 100ms;
+}

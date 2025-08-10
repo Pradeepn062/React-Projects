@@ -1,0 +1,64 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+.body-text{
+    color: white;
+    font-size: 40px;
+    padding-left: 100px;
+    padding-top: 10px;
+    color:white;
+}
+
+.arrow-button{
+    display: flex;
+    align-items: center;
+    margin-left:60px;
+    margin-top: 70px;
+    background-color: white;
+    border-radius: 40px;
+    width: fit-content;
+    padding: 5px 25px;
+}
+
+.arrow-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.list-scroll{
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.list-scroll li{
+    cursor: pointer;
+}
+
+.orange-dot{
+    color:orange;
+}
+
+.play-pause-icon{
+    display: flex;
+    color: white;
+    float: right;
+    margin-right: 30px;
+}
+.play-pause-icon p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    cursor: pointer;
+}
